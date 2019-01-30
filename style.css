@@ -1,0 +1,276 @@
+/*GENERAL */
+
+body
+{
+    font-family: 'Lato', sans-serif;
+}
+h1,h2,h3,h4,h5,h6
+{
+    font-weight: bold;
+}
+img{
+    max-width: 40%;
+    height: auto;
+}
+section
+{
+    padding: 10px 0 80px 0;
+}
+section .heading
+{
+    text-align: center;
+    padding-bottom: 40px;
+}
+.red-divider
+{
+    width: 100px;
+    height: 2px;
+    background:#8B0000;
+    margin: 0 auto;
+}
+
+
+.darkred-divider
+{
+    width: 100px;
+    height: 2px;
+    background:#8B0000;
+    margin: 0 auto;
+}
+
+
+.white-divider
+{
+    width: 100px;
+    height: 2px;
+    background:#fff;
+    margin: 0 auto;
+}
+
+#about
+{
+    padding-top: 100px;
+    background:#8B0000;
+}
+.profile-picture
+{
+    text-align: center;
+    margin: 0 auto;
+    float: none;
+}
+#about .heading h1
+{
+    color: #fff;
+}
+#about .heading h3
+{
+    color: #fff;
+}
+.button1
+{
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    border: 1px solid white;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 50px;
+    border-radius: 3px;
+    transition: all 0.1s ease-in 0s;
+}
+.button1:hover
+{
+    background: white;
+    text-decoration: none;
+}
+
+
+/* SKILLS */
+#skills
+{
+    background:#fff;
+}
+#skills .heading h2
+{
+    color:#8B0000;
+    text-transform: uppercase;
+}
+#skills .progress
+{
+    height: 100%;
+    margin: 30px 20px;
+    background:#ddd;
+}
+#skills .progress-bar
+{
+    background: #8B0000
+}
+#skills .progress h5
+{
+    text-shadow: 1px 1px 1px #000;
+}
+
+/* EDUCATION */
+#education
+{
+    background: #fff;
+}
+#education .heading h2
+{
+    color: #8B0000;
+}
+
+.formation-muted
+{
+    color:#8B0000;
+    text-transform: uppercase;
+}
+.education-block
+{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    background: #ddd;
+    padding: 40px;
+    border-radius: 20px;
+    border: 4px solid #ccc;
+    margin-bottom: 40px;
+}
+.education-block h5
+{
+    color: #888;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+.education-block .glyphicon
+{
+    font-size: 40px;    
+}
+
+.education-block h3
+{
+    color:#8B0000
+}
+.education-block h4
+{
+    margin-bottom: 20px;
+}
+
+/* project */
+
+#project
+{
+    background: #8B0000
+}
+#project .heading h2
+{
+    color:#fff;
+}
+.timeline
+{
+    padding: 30px 10px;
+    position: relative;
+}
+
+.timeline:before
+{
+    top: 0;
+    bottom: 0%;
+    position: absolute;
+    content:"";
+    width: 5px;
+    background:#fff;
+    left: 50%;
+    margin-left: -2.5px;
+}
+
+.timeline > li
+{
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.timeline > li:after
+{
+    clear: both;
+}
+
+.timeline >li:before, .timeline > li:after
+{
+    content: "";
+    display: table;
+}
+.timeline-panel-container
+{
+    width: 50%;
+    float: left;
+}
+
+.timeline-panel-container-inverted
+{
+    width: 50%;
+    float: right;
+}
+
+.timeline-panel
+{
+    width: 90%;
+    float:right;
+    margin-right: 40px;
+    border: 1px solid #000;
+    border-radius: 7px;
+    padding: 20px 25px;
+    position: relative;
+    box-shadow: 0 1px 6px rgba(0,0,0,0.175);
+    background: #fff;
+}
+.timeline-panel-container-inverted .timeline-panel
+{
+    float: left;
+    margin-left: 40px;
+}
+
+.text-muted
+{
+    color:#8B0000;
+}
+
+
+
+/* EXPERIENCES */
+
+
+#expériences
+{
+    background: #fff;
+}
+
+.texte-muted
+{
+    color:#8B0000;
+    text-transform: uppercase;
+}
+
+.expérience-block
+{
+    width: 95%;
+    margin: 0 auto;
+    text-align: center;
+    background: #ddd;
+    padding: 40px;
+    border-radius: 20px;
+    border: 4px solid #ccc;
+    margin-bottom: 40px;
+
+}
+.expérience-block h5
+{
+    color: #888;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.expérience-block .glyphicon
+{
+    font-size: 40px;    
+}
